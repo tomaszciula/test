@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { changeSentenceState } from "./data";
 
 const Letter = ({
@@ -8,7 +8,6 @@ const Letter = ({
   letterState,
   setLetterState,
 }) => {
-  let oldSentenceState = sentenceState;
   const handleOnClick = (index, letter) => {
     let oldSentenceState = sentenceState;
     console.log(oldSentenceState);
