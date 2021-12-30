@@ -17,6 +17,7 @@ const Letter = ({
     console.log(sentenceState);
     console.log(letterState[index].class);
     let newValues = [...letterState];
+    // eslint-disable-next-line no-lone-blocks
     {
       !(newSentenceState === oldSentenceState)
         ? (newValues[index].class =
